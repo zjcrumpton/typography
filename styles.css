@@ -1,0 +1,144 @@
+.header-container {
+  display: flex;
+}
+
+.nav {
+  width: 700px;
+  height: 100px;
+  background-color: #dbdbdb;
+}
+
+.more {
+  width: 200px;
+  height: 100px;
+  background-color: #a8a8a8;
+}
+
+.search {
+  width: 400px;
+  height: 100px;
+  margin-left: 1px;
+  background-color: #7a7a7a;
+}
+
+.headline {
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+  height: 100px;
+  background-color: #292929;
+}
+
+.color-button {
+  /* float: right;
+   */
+
+  position: absolute;
+  right: 50px;
+  top: 148px;
+  clear: none;
+  width: 200px;
+  height: 100px;
+  background-color: #737373;
+}
+
+.path-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-left: 70px;
+}
+
+.left-author {
+  width: 200px;
+  height: 100px;
+  background-color: #737373;
+}
+
+.left-header {
+  width: 400px;
+  height: 100px;
+  background-color: #4d4d4d;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-right: 70px;
+}
+
+.right-author {
+  width: 200px;
+  height: 100px;
+  background-color: #737373;
+}
+
+.right-header {
+  width: 400px;
+  height: 100px;
+  background-color: #4d4d4d;
+}
+
+.article-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+}
+
+.article-header {
+  width: 400px;
+  height: 200px;
+  background-color: #292929;
+}
+
+.article-description {
+  width: 400px;
+  height: 200px;
+  background-color: #696969;
+}
+
+.graphic-container {
+  display: flex;
+  margin-top: 80px;
+  justify-content: space-between;
+}
+
+.ad {
+  width: 300px;
+  height: 200px;
+  background-color: #737373;
+  margin-left: 100px;
+}
+
+.graphic {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  align-items: center;
+}
+
+.graphic-image {
+  width: 300px;
+  height: 200px;
+  background-color: #696969;
+}
+
+.graphic-header {
+  width: 700px;
+  height: 100px;
+  background-color: #292929;
+}
